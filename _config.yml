@@ -1,16 +1,6 @@
-title: My Research Notes
-description: personal technical notes
+# _config.yml
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" # "air", "contrast", "dark" 등 선택 가능
 
-url: "https://newjeans365.github.io"
-baseurl: ""
-
-remote_theme: jekyll/minima
-
-plugins:
-  - jekyll-remote-theme
-
-permalink: pretty
-
-kramdown:
-  math_engine: mathjax
-  input: GFM
+# 수식 활성화 (가장 중요!)
+math: true
