@@ -2,7 +2,6 @@
 layout: post
 title: "블로그 시작"
 date: 2026-02-15 21:00:00 +0900
-categories: diary
 ---
 
 기술 블로그 테스트 글입니다.
