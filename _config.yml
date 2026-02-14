@@ -1,6 +1,23 @@
-# _config.yml
+# 테마 설정
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # "air", "contrast", "dark" 등 선택 가능
+minimal_mistakes_skin: "default" # 취향에 따라 air, contrast, dark 등 가능
 
-# 수식 활성화 (가장 중요!)
-math: true
+# 기본 정보
+title: "My Research Notes"
+url: "https://newjeans365.github.io"
+baseurl: ""
+
+# 수식 엔진 설정 (Kramdown)
+kramdown:
+  math_engine: mathjax
+  input: GFM
+  hard_wrap: false
+
+# 플러그인
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-include-cache # 성능 향상을 위해 추천
+
+# 테마 내부 기능 활성화
+math: true # 테마 전체에서 수식 기능을 사용할 수 있게 준비함
