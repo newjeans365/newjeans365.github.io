@@ -10,3 +10,7 @@ plugins:
   - jekyll-remote-theme
 
 permalink: pretty
+
+kramdown:
+  math_engine: mathjax
+  input: GFM
