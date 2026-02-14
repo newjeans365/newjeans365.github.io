@@ -1,8 +1,12 @@
-remote_theme: jekyll/minima
 title: My Research Notes
 description: personal technical notes
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
-  input: GFM
+
+url: "https://newjeans365.github.io"
+baseurl: ""
+
+remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-remote-theme
+
 permalink: pretty
