@@ -1,15 +1,19 @@
 <script>
-window.MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$','$$'], ['\\[','\\]']]
-  },
-  svg: {
-    fontCache: 'global'
-  }
-};
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true
+    },
+    options: {
+      // kramdown이 변환한 태그를 MathJax가 다시 인식하게 함
+      processHtmlClass: 'math|tex'
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
 </script>
-
-<script async
+<script id="MathJax-script" async 
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
