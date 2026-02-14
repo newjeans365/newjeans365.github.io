@@ -1,4 +1,4 @@
-theme: minima
+remote_theme: jekyll/minima
 title: My Research Notes
 description: personal technical notes
 markdown: kramdown
