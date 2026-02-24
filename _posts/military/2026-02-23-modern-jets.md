@@ -1,6 +1,8 @@
 ---
 title: "Modern Jets"
 date: 2026-02-22 21:00:00 +0900
+layout: single
+classes: wide
 ---
 
 1903년, 라이트형제는 최초의 비행에 성공했다.  
